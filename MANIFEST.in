@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include mask_field *.css
+recursive-include mask_field *.csv
+recursive-include mask_field *.html
+recursive-include mask_field *.ico
+recursive-include mask_field *.js
+recursive-include mask_field *.json
+recursive-include mask_field *.md
+recursive-include mask_field *.png
+recursive-include mask_field *.py
+recursive-include mask_field *.svg
+recursive-include mask_field *.txt
+recursive-exclude mask_field *.pyc
