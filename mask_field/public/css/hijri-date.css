@@ -1,0 +1,73 @@
+.k-block, .k-widget {
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 0px;
+    padding: 6px;
+}
+.k-gantt-toolbar .k-state-default, .k-grid .k-grouping-header, .k-grid-header, .k-grid-header-wrap, .k-grouping-header .k-group-indicator, .k-header, .k-pager-wrap, .k-pager-wrap .k-link, .k-pager-wrap .k-textbox {
+    border-color: #c5c5c5;
+    border: 0px;
+    border-bottom: 1px solid #c5c5c5;
+    padding: 3px;
+}
+.k-calendar .k-content, .k-calendar .k-content th {
+    text-align: center;
+}
+.k-calendar th {
+    background-color: #fff;
+    padding: 6px;
+    height: 30px;
+}
+.k-block, .k-draghandle, .k-grid-header, .k-grouping-header, .k-header, .k-pager-wrap, .k-toolbar, .k-treemap-tile, html .km-pane-wrapper .k-header {
+    background-color: #fff;
+}
+.k-calendar td {
+    padding: 0.08333em;
+    cursor: pointer;
+    text-align: center;
+    vertical-align: middle;
+}
+.k-draghandle.k-state-selected:hover, .k-ghost-splitbar-horizontal, .k-ghost-splitbar-vertical, .k-list>.k-state-highlight, .k-list>.k-state-selected, .k-marquee-color, .k-panel>.k-state-selected, .k-scheduler .k-scheduler-toolbar .k-state-selected, .k-scheduler .k-today.k-state-selected, .k-state-selected, .k-state-selected:link, .k-state-selected:visited, .k-tool.k-state-selected {
+    color: #f35800;
+    background-color: #efefef;
+    border-color: #efefef;
+}
+
+.k-calendar td.k-state-selected .k-link, .k-calendar td.k-today.k-state-selected.k-state-hover .k-link {
+    color: #f35800;
+}
+.k-calendar .k-today {
+    -webkit-box-shadow: inset 0 0 0 1px #d6d6d6;
+    box-shadow: inset 0 0 0 1px #d6d6d6;
+}
+
+.k-calendar .k-footer {
+    padding: 0;
+    border-top: 1px solid #d8d8d8;
+}
+.k-calendar td.k-state-selected.k-state-hover {
+    background-color: #efefef;
+    background-image: none;
+}
+.k-dropdown .k-state-focused, .k-filebrowser-dropzone, .k-list>.k-state-hover, .k-mobile-list .k-edit-label.k-check:active, .k-mobile-list .k-item>.k-label:active, .k-mobile-list .k-item>.k-link:active, .k-mobile-list .k-recur-view .k-check:active, .k-pager-wrap .k-link:hover, .k-scheduler .k-scheduler-toolbar ul li.k-state-hover, .k-splitbar-horizontal-hover:hover, .k-splitbar-vertical-hover:hover, .k-state-hover, .k-state-hover:hover {
+    color: #2e2e2e;
+    background-color: #ededed;
+    border-color: #ededed;
+}
+
+.form-control.k-widget { 
+    padding: 0;
+    width: 100%;
+}
+.k-dropdown-wrap .k-select, .k-numeric-wrap .k-select, .k-picker-wrap .k-select {
+    line-height: 2em;
+    vertical-align: middle;
+    -moz-box-sizing: border-box;
+    text-align: center;
+    width: 2em;
+    height: 100%;
+    display: none;
+}
+.k-dropdown-wrap, .k-numeric-wrap, .k-picker-wrap {
+    padding-right: 2px;
+}

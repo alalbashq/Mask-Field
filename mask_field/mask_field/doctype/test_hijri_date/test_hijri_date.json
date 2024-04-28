@@ -1,0 +1,58 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-02-16 00:25:14.187427",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "hijri_date",
+  "mask",
+  "hijri_date1"
+ ],
+ "fields": [
+  {
+   "fieldname": "hijri_date",
+   "fieldtype": "Data",
+   "label": "Hijri Date",
+   "options": ":Hijri-Date"
+  },
+  {
+   "fieldname": "mask",
+   "fieldtype": "Data",
+   "label": "mask",
+   "options": ":mask:(+967)-000-000"
+  },
+  {
+   "fieldname": "hijri_date1",
+   "fieldtype": "Data",
+   "label": "hijri date1",
+   "options": ":Hijri-Date"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-02-17 10:40:18.631269",
+ "modified_by": "Administrator",
+ "module": "Mask Field",
+ "name": "Test Hijri Date",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

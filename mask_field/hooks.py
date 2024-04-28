@@ -11,7 +11,11 @@ app_license = "MIT"
 # ------------------
 
 # include js, css files in header of desk.html
-# app_include_css = "/assets/mask_field/css/mask_field.css"
+app_include_css = [
+    "/assets/mask_field/css/kendo.common.min.css",
+    "/assets/mask_field/css/kendo.default.min.css",
+    "/assets/mask_field/css/hijri-date.css",
+]
 # app_include_js = "/assets/mask_field/js/mask_field.js"
 
 # include js, css files in header of web template
@@ -26,9 +30,19 @@ app_license = "MIT"
 # webform_include_css = {"doctype": "public/css/doctype.css"}
 
 # include js in page
-# page_js = {"page" : "public/js/file.js"}
-
-# include js in doctype views
+# page_js = {"page" : "public/js/file.js"}  
+app_include_js =[
+    "/assets/mask_field/js/JalaliDate.js",  
+    "/assets/mask_field/js/HijriDate.js",  
+    "/assets/mask_field/js/kendo.web.js",  
+    "/assets/mask_field/js/kendo.datepicker.fa.js",  
+    "/assets/mask_field/js/ar-SA.js",  
+    "/assets/mask_field/js/kendo.calendar.ar.js",  
+    "/assets/mask_field/js/kendo.datepicker.ar.js", 
+    "/assets/mask_field/js/tabler.esm.js", 
+    "/assets/mask_field/js/mask-field.js", 
+    ]
+# include js in doctype views 
 # doctype_js = {"doctype" : "public/js/doctype.js"}
 # doctype_list_js = {"doctype" : "public/js/doctype_list.js"}
 # doctype_tree_js = {"doctype" : "public/js/doctype_tree.js"}
